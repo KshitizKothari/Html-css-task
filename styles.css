@@ -1,0 +1,100 @@
+html{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    width: 100%;
+}
+
+div{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 2px;
+    
+    font-family: sans-serif;
+}
+
+table{
+    width :40%;
+    margin:0px;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 20%;
+    padding-right: 25%;
+    
+}
+tr{
+    margin:0px;
+    
+}
+td{
+    margin:0px;
+    background-color: #e6c8c8;
+    padding:15%;
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 50em;
+    width: 45%;
+    padding: 5px;
+    border: 1px solid black
+}
+
+
+
+/* ############## Classes ##################### */
+.container{
+    border-radius: 5px;
+    background: linear-gradient(45deg, #E0BF82, #B06C49);
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-top: 10px;
+    position: relative;
+    box-shadow: 0px 2px 5px grey;
+    padding:3%;
+    margin: auto;
+    font-family: Inter;
+}
+.card{
+
+    background:white;
+    display: flex;
+    width: 90%; 
+    height: auto;
+    margin: 15px auto;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px;
+}
+.profile-div{
+    width: 60%;
+    display: block;
+    margin: 0px;
+    text-align: center;
+    
+}
+.number{
+    font-size: 25px;
+    margin-bottom:0; 
+    margin-left: 0;
+}
+.font-inter{
+    font-family: Inter;
+}
+
+.font-open-sans-condensed{
+    font-family: 'Open Sans Condensed';
+}
+
+.font-pacifico{
+    font-family: 'Pacifico';
+}
